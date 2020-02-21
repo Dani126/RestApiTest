@@ -1,0 +1,28 @@
+{
+  "type": "array",
+  "items": {
+    "required": [
+      "_id",
+      "spells",
+      "effect",
+      "type"
+    ],
+    "properties": {
+      "_id": {
+        "type": "string",
+        "minLength": 10
+      },
+      "spell": {
+        "type": "string",
+        "pattern": "^[A-Z](.*)$"
+      },
+      "type": {
+        "type": "string",
+        "minLength": 5
+      },
+      "effect": {
+        "type": "string"
+      }
+    }
+  }
+}

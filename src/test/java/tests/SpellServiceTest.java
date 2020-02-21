@@ -1,15 +1,22 @@
 package tests;
 
+import com.codeborne.selenide.Condition;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+import java.io.File;
 import java.util.List;
 
+import static com.codeborne.selenide.CollectionCondition.exactTexts;
+import static com.codeborne.selenide.Condition.exactText;
+import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.open;
 import static io.restassured.RestAssured.given;
 import static io.restassured.RestAssured.when;
+import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema;
 import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.assertThat;
 
@@ -69,5 +76,27 @@ public class SpellServiceTest {
 
         spells.forEach(spell -> assertThat(spell,is(not(emptyString()))));
         //spelly neobsahuju prazdny string
+    }
+    @Test
+    public void itShouldDisplayEffectsOnPage(){
+        Response response = given().queryParam("key",API_KEY).when().get();
+        List<String> effects = response.getBody().path("effect");
+        //vytiahnutie effektov z API (backend)
+
+        open("http://localhost:82/spelleology.php");
+        $("ul.spells")
+                .findAll("li")
+                .shouldHave(exactTexts(effects));
+//        System.out.println();
+
+        //najdenie elementov na frontende a porovnanie listov s backendom
+    }
+
+    @Test
+    public void itShouldMatchSchema(){
+        given().queryParam("key",API_KEY)
+                .when().get()
+                .then().body(matchesJsonSchema(new File("src/test/resources/schemas/spell_schema.json")));
+
     }
 }

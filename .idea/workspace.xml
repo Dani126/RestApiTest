@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89cc8cba-8c67-4209-a63a-91145576c489" name="Default Changelist" comment="" />
+    <list default="true" id="89cc8cba-8c67-4209-a63a-91145576c489" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1581578723727.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1581578723727.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1581662745863.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1581662745863.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582241514691.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582241514691.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582241515101.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582241515101.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582241567980.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582241567980.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/CharacterServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/schemas/spell_schema.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SpellServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SpellServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/SpellServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/SpellServiceTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +32,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,12 +43,17 @@
     </option>
   </component>
   <component name="ProjectId" id="1Xj10hE6o5yj39yID1gReKQcUuM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -38,8 +64,8 @@
       <recent name="D:\Programovanie\RestApiTest\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SpellServiceTest">
-    <configuration name="SpellServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CharacterServiceTest.itShouldFindCharacterUsingIdRoute">
+    <configuration name="CharacterServiceTest.itShouldFindCharacterUsingHouseAndDeathEaterParam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RestApiTest" />
       <extension name="coverage">
         <pattern>
@@ -48,8 +74,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.SpellServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="tests.CharacterServiceTest" />
+      <option name="METHOD_NAME" value="itShouldFindCharacterUsingHouseAndDeathEaterParam" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CharacterServiceTest.itShouldFindCharacterUsingIdRoute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestApiTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CharacterServiceTest" />
+      <option name="METHOD_NAME" value="itShouldFindCharacterUsingIdRoute" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -70,7 +113,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpellServiceTest.itShouldReturnStatus200WhenKeyIsCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpellServiceTest.itShouldDisplayEffectsOnPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RestApiTest" />
       <extension name="coverage">
         <pattern>
@@ -80,13 +123,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.SpellServiceTest" />
-      <option name="METHOD_NAME" value="itShouldReturnStatus200WhenKeyIsCorrect" />
+      <option name="METHOD_NAME" value="itShouldDisplayEffectsOnPage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpellServiceTest.itShouldReturnStatus401WhenKeyIsInvalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpellServiceTest.itShouldFindCharacterUsingHouseAndDeathEaterParam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RestApiTest" />
       <extension name="coverage">
         <pattern>
@@ -96,23 +139,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.SpellServiceTest" />
-      <option name="METHOD_NAME" value="itShouldReturnStatus401WhenKeyIsInvalid" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpellServiceTest.itShouldReturnStatus409WhenKeyIsMissing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RestApiTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.SpellServiceTest" />
-      <option name="METHOD_NAME" value="itShouldReturnStatus409WhenKeyIsMissing" />
+      <option name="METHOD_NAME" value="itShouldFindCharacterUsingHouseAndDeathEaterParam" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -120,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SpellServiceTest" />
-        <item itemvalue="JUnit.SpellServiceTest.itShouldReturnStatus401WhenKeyIsInvalid" />
-        <item itemvalue="JUnit.SpellServiceTest.itShouldReturnStatus409WhenKeyIsMissing" />
+        <item itemvalue="JUnit.CharacterServiceTest.itShouldFindCharacterUsingIdRoute" />
+        <item itemvalue="JUnit.CharacterServiceTest.itShouldFindCharacterUsingHouseAndDeathEaterParam" />
+        <item itemvalue="JUnit.SpellServiceTest.itShouldFindCharacterUsingHouseAndDeathEaterParam" />
+        <item itemvalue="JUnit.SpellServiceTest.itShouldDisplayEffectsOnPage" />
         <item itemvalue="JUnit.SpellServiceTest.itShouldContainSpellFieldForEachSpellInList" />
-        <item itemvalue="JUnit.SpellServiceTest.itShouldReturnStatus200WhenKeyIsCorrect" />
       </list>
     </recent_temporary>
   </component>
@@ -141,47 +168,54 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="494" y="233" key="#xdebugger.evaluate" timestamp="1581548072436">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="494" y="233" key="#xdebugger.evaluate/0.0.1536.824/-1920.2.1920.1040@0.0.1536.824" timestamp="1581548072436" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1581549648325">
+    <state width="1493" height="278" key="GridCell.Tab.0.bottom" timestamp="1582248104905">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.2.1920.1040@0.0.1536.824" timestamp="1581549648325" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1581549648325">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.2.1920.1040@0.0.1536.824" timestamp="1581662725804" />
+    <state width="1493" height="278" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582248104905" />
+    <state width="1493" height="278" key="GridCell.Tab.0.center" timestamp="1582248104905">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/-1920.2.1920.1040@0.0.1536.824" timestamp="1581549648325" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1581549648325">
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824/-1920.2.1920.1040@0.0.1536.824" timestamp="1581662725804" />
+    <state width="1493" height="278" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582248104905" />
+    <state width="1493" height="278" key="GridCell.Tab.0.left" timestamp="1582248104905">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/-1920.2.1920.1040@0.0.1536.824" timestamp="1581549648325" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1581549648325">
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824/-1920.2.1920.1040@0.0.1536.824" timestamp="1581662725804" />
+    <state width="1493" height="278" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582248104905" />
+    <state width="1493" height="278" key="GridCell.Tab.0.right" timestamp="1582248104905">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/-1920.2.1920.1040@0.0.1536.824" timestamp="1581549648325" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1581548319546">
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824/-1920.2.1920.1040@0.0.1536.824" timestamp="1581662725804" />
+    <state width="1493" height="278" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582248104905" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1581662725804">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.2.1920.1040@0.0.1536.824" timestamp="1581548319546" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1581548319546">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.2.1920.1040@0.0.1536.824" timestamp="1581662725804" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1581662725804">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824/-1920.2.1920.1040@0.0.1536.824" timestamp="1581548319546" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1581548319546">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824/-1920.2.1920.1040@0.0.1536.824" timestamp="1581662725804" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1581662725804">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824/-1920.2.1920.1040@0.0.1536.824" timestamp="1581548319546" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1581548319546">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824/-1920.2.1920.1040@0.0.1536.824" timestamp="1581662725804" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1581662725804">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824/-1920.2.1920.1040@0.0.1536.824" timestamp="1581548319546" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1581546151885">
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824/-1920.2.1920.1040@0.0.1536.824" timestamp="1581662725804" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1581578302709">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824/-1920.2.1920.1040@0.0.1536.824" timestamp="1581546151885" />
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824/-1920.2.1920.1040@0.0.1536.824" timestamp="1581578302709" />
     <state width="775" height="419" key="XDebugger.FullValuePopup" timestamp="1581547709487">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
